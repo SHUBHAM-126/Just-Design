@@ -1,0 +1,50 @@
+
+.main_section{
+   padding: 20px 50px;
+}
+
+.form{
+    display: grid;
+    grid-template-columns:1fr 2fr;
+    row-gap: 10px;
+    width: fit-content;
+
+
+    .label{
+        font-size: 13px;
+        font-weight: 600;
+        letter-spacing: 1px;
+    }
+
+
+    .txt_field{
+        font-family: 'Poppins', sans-serif;
+        font-size: 12px;
+        border-style: solid;
+        border-radius: 2px;
+        border-width: 1px;
+    }
+
+    .txt_field:focus{
+        outline: none;
+        border-width: 1px;
+        border-style: solid;
+        border-color: #3cc875;
+    }
+
+}
+
+footer {
+    background-color: #000;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+
+@media only screen and (max-width:500px){
+
+.main_section{
+    padding: 20px 20px;
+}
+
+}
